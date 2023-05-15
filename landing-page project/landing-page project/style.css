@@ -1,0 +1,810 @@
+body {
+    position: absolute;
+    background-color: #FAFAFA;
+    margin: 0 0;
+    height: 3690px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#header {
+    display: flex;
+    background-color: white;
+    z-index: 5;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 9999;
+
+}
+
+.wraplogo {
+    margin-right: 500px;
+    margin-left: 50px;
+    top: 17px;
+    left: 71px;
+    width: 137px;
+    height: 47px;
+    margin-bottom: 7px;
+}
+
+
+
+.abt,
+.menu {
+    margin: 5px 20px 5px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 26px;
+    left: 890px;
+    width: 111px;
+    height: 29px;
+    z-index: 3;
+    background-color: white;
+}
+
+.contact {
+    margin: 5px 88px 5px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 26px;
+    left: 890px;
+    width: 111px;
+    height: 29px;
+    z-index: 3;
+    background-color: white;
+}
+
+#firstpath {
+    background: linear-gradient(#DEF0D8, #FAFAFA);
+    width: 1266px;
+    height: 800px;
+
+}
+
+.HF {
+    margin-bottom: 15pxx;
+    margin-top: 251px;
+    margin-left: 71px;
+    width: 511px;
+    height: 146px;
+    text-align: left;
+    font: normal normal 900 64px/71px Raleway;
+    letter-spacing: 0px;
+    color: #383833;
+    opacity: 1;
+
+}
+
+#created {
+    font-size: 20px;
+    margin-left: 72px;
+    width: 415px;
+    height: 48px;
+    text-align: left;
+    font-style: Raleway, meduim;
+    letter-spacing: 0px;
+    color: #383833;
+    opacity: 1;
+}
+
+.checkmenu {
+
+
+    position: absolute;
+    top: 497px;
+    left: 72px;
+    width: 207px;
+    height: 53px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #FAFAFA;
+    background-color: #F19A33;
+    font-size: 18px;
+
+}
+
+i.fa-arrow-right {
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+
+.body {
+    display: flex;
+}
+
+
+
+
+.ellipse {
+    width: 922px;
+    height: 850px;
+    background-color: #387546;
+    border-radius: 50%;
+    margin-left: 658px;
+    margin-top: -112px;
+
+    z-index: 1;
+    position: absolute;
+
+}
+
+/* .ellipse::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: ellipse(370px 2000px at 100% 50%);
+    background-color: #fa;
+} */
+#backpic {
+    position: absolute;
+    background-color: #387546;
+    top: 100px;
+    left: 740px;
+    width: 517px;
+    height: 535px;
+    background: transparent;
+    z-index: 5;
+
+}
+
+#pepper {
+    position: absolute;
+    top: 611px;
+    left: -40px;
+    width: 220px;
+    height: 227px;
+
+}
+
+
+
+.circle {
+    background-color: #598463;
+    top: 830px;
+    left: -100px;
+    width: 603px;
+    height: 600px;
+    border-radius: 50%;
+    border: 1px solid none;
+    margin-top: 300px;
+    margin-left: -250px;
+
+}
+
+#vegetables {
+    position: absolute;
+    top: 800px;
+    left: 65px;
+    width: 550px;
+    height: 535px;
+}
+
+#aboutus {
+    position: absolute;
+    top: 1008px;
+    left: 763px;
+    width: 126px;
+    height: 35px;
+    color: #F19A33;
+    font-size: 30px;
+    font-family: raleway, Medium;
+    margin-bottom: -50px;
+    /* margin-bottom: 10px; */
+
+}
+
+#fewwords {
+    position: absolute;
+    top: 1059px;
+    left: 763px;
+    width: 532px;
+    height: 66px;
+    font-size: 56px;
+
+    margin-top: -10px;
+    font: normal normal bold 40px Raleway;
+
+}
+
+#notes {
+    position: absolute;
+    top: 1145px;
+    left: 762px;
+    width: 533px;
+    height: 115px;
+    font-size: 18px;
+    margin-top: -35px;
+    font: normal normal medium 24px Raleway;
+}
+
+#learnmore {
+    position: absolute;
+    top: 1284px;
+    left: 762px;
+    width: 160px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #FAFAFA;
+    background-color: #387546;
+    font-size: 15px;
+    margin-top: -67px;
+}
+
+
+
+/* SECTION 2 OF THE CSS */
+/* SECTION 2 OF THE CSS */
+
+#menu {
+    position: absolute;
+    top: 1438px;
+    left: 642px;
+    width: 84px;
+    height: 39px;
+    font-size: larger;
+    font: normal medium 33px Raleway;
+    color: #F19A33;
+    text-align: center;
+}
+
+#explore {
+    position: absolute;
+    top: 1465px;
+    left: 371px;
+    width: 611px;
+    height: 66px;
+    font: normal normal bold 50px Raleway;
+    color: #383833;
+    text-align: center;
+}
+
+#below {
+    position: absolute;
+    top: 1539px;
+    left: 451px;
+    width: 470px;
+    height: 29px;
+    font: normal normal medium 29px Raleway;
+    color: #383833;
+    text-align: center;
+
+}
+
+#firstfood {
+    position: absolute;
+    top: 1590px;
+    left: 71px;
+    width: 350px;
+    height: 320px;
+    background: transparent;
+
+
+}
+
+#secondfood {
+    top: 1590px;
+    left: 450px;
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    background: transparent;
+
+}
+
+#thridfood {
+    top: 1590px;
+    left: 830px;
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    background: transparent;
+
+}
+
+#w1 {
+    position: absolute;
+    top: 1875px;
+    left: 71px;
+    width: 350px;
+    height: 115px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 10px lightgrey;
+    z-index: 2;
+
+}
+
+#w2 {
+    position: absolute;
+    top: 1875px;
+    left: 450px;
+    width: 350px;
+    height: 115px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 10px lightgrey;
+    z-index: 2;
+
+
+}
+
+#w3 {
+    position: absolute;
+    top: 1875px;
+    left: 830px;
+    width: 350px;
+    height: 115px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 10px lightgray;
+    z-index: 2;
+
+
+}
+
+/* 9 div to deal with */
+.items {
+    white-space: nowrap;
+}
+
+#mb {
+    position: absolute;
+    top: 1900px;
+    left: 87px;
+    width: 148px;
+    height: 26px;
+    z-index: 5;
+    font: normal normal bold 22px/27px Raleway;
+    color: #383833;
+    white-space: nowrap;
+}
+
+#price1 {
+    position: absolute;
+    top: 1900px;
+    left: 370px;
+    width: 27px;
+    height: 26px;
+    font: normal normal bold 22px/27px Raleway;
+    color: #383833;
+    z-index: 5;
+
+
+}
+
+#info1 {
+    position: absolute;
+    top: 1942px;
+    left: 87px;
+    width: 221px;
+    height: 21px;
+    z-index: 5;
+    font: normal normal normal 18px/27px Raleway;
+    color: #383833;
+}
+
+#cs {
+    position: absolute;
+    top: 1900px;
+    left: 465px;
+    width: 177px;
+    height: 26px;
+    z-index: 5;
+    white-space: nowrap;
+    font: normal normal bold 22px/32px Raleway;
+    color: #383833;
+}
+
+#price2 {
+    position: absolute;
+    top: 1900px;
+    left: 740px;
+    width: 27px;
+    height: 26px;
+    font: normal normal bold 22px/27px Raleway;
+    color: #383833;
+    z-index: 5;
+
+
+}
+
+#info2 {
+    position: absolute;
+    top: 1942px;
+    left: 465px;
+    width: 221px;
+    height: 21px;
+    z-index: 5;
+    font: normal normal normal 18px/27px Raleway;
+    color: #383833;
+
+}
+
+#cw {
+    position: absolute;
+    top: 1900px;
+    left: 845px;
+    width: 172px;
+    height: 26px;
+    z-index: 5;
+    font: normal normal bold 22px/27px Raleway;
+    color: #383833;
+
+}
+
+#price3 {
+    position: absolute;
+    top: 1900px;
+    left: 1130px;
+    width: 27px;
+    height: 26px;
+    font: normal normal bold 22px/27px Raleway;
+    color: #383833;
+    z-index: 5;
+
+
+}
+
+#info3 {
+    position: absolute;
+    top: 1942px;
+    left: 845px;
+    width: 221px;
+    height: 21px;
+    z-index: 5;
+    font: normal normal normal 18px/27px Raleway;
+    color: #383833;
+}
+
+
+
+
+.goodfood {
+    position: absolute;
+    top: 2100px;
+    left: 338px;
+    width: 700px;
+    height: 66px;
+    font: normal normal bold 56px Raleway;
+    color: #383833;
+    margin-bottom: 20px;
+}
+
+#p1 {
+    position: absolute;
+    top: 2200px;
+    left: 71px;
+    width: 350px;
+    height: 260px;
+    background: transparent;
+
+
+}
+
+#p2 {
+    position: absolute;
+    top: 2200px;
+    left: 450px;
+    width: 350px;
+    height: 260px;
+    background: transparent;
+}
+
+#p3 {
+    position: absolute;
+    top: 2200px;
+    left: 830px;
+    width: 350px;
+    height: 260px;
+    background: transparent;
+}
+
+#p4 {
+    position: absolute;
+    top: 2482px;
+    left: 71px;
+    width: 350px;
+    height: 260px;
+    background: transparent;
+}
+
+
+
+#p5 {
+    position: absolute;
+    top: 2482px;
+    left: 450px;
+    width: 350px;
+    height: 260px;
+    background: transparent;
+}
+
+#p6 {
+    position: absolute;
+    top: 2482px;
+    left: 830px;
+    width: 350px;
+    height: 260px;
+    background: transparent;
+}
+
+/* SECTION 3 OF THE CSS */
+/* SECTION 3 OF THE CSS */
+
+
+#b1 {
+    position: absolute;
+    top: 2860px;
+    left: 71px;
+    width: 330px;
+    height: 187px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 17px 20px #00000029;
+    border-radius: 78px;
+    z-index: 3;
+}
+
+#b2 {
+    position: absolute;
+    top: 2860px;
+    left: 460px;
+    width: 330px;
+    height: 187px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 17px 20px #00000029;
+    border-radius: 78px;
+    z-index: 3;
+}
+
+#b3 {
+    position: absolute;
+    top: 2860px;
+    left: 840px;
+    width: 330px;
+    height: 187px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 17px 20px #00000029;
+    border-radius: 78px;
+    z-index: 3;
+}
+
+#timeicon {
+    position: absolute;
+    top: 2880px;
+    left: 220px;
+    width: 48px;
+    height: 48px;
+    z-index: 5;
+
+}
+
+#time {
+    position: absolute;
+    top: 2948px;
+    left: 152px;
+    width: 185px;
+    height: 24px;
+    font: normal normal bold 20px/27px Raleway;
+    color: #383833;
+    z-index: 5;
+
+}
+
+#working {
+    position: absolute;
+    top: 2980px;
+    left: 190px;
+    width: 124px;
+    height: 21px;
+    font: normal normal normal 18px/27px Raleway;
+    color: #383833;
+    z-index: 5;
+}
+
+#locationicon {
+    position: absolute;
+    top: 2880px;
+    left: 615px;
+    width: 40px;
+    height: 49px;
+    z-index: 5;
+
+}
+
+#pia {
+    position: absolute;
+    top: 2948px;
+    left: 530px;
+    width: 205px;
+    height: 24px;
+    z-index: 5;
+    font: normal normal bold 20px/27px Raleway;
+    color: #383833;
+    white-space: nowrap;
+
+
+}
+
+#findus {
+    position: absolute;
+    top: 2980px;
+    left: 610px;
+    width: 63px;
+    height: 21px;
+    z-index: 5;
+    font: normal normal normal 18px/27px Raleway;
+    color: #383833;
+}
+
+#phone {
+    position: absolute;
+    top: 2880px;
+    left: 974px;
+    width: 48px;
+    height: 48px;
+    z-index: 5;
+
+}
+
+#phoneno {
+    position: absolute;
+    display: inline;
+    top: 2948px;
+    left: 940px;
+    width: 112px;
+    height: 24px;
+    z-index: 5;
+    font: normal normal bold 20px/27px Raleway;
+    color: #383833;
+    white-space: nowrap;
+
+}
+
+#callto {
+    position: absolute;
+    top: 2980px;
+    left: 960px;
+    width: 79px;
+    height: 21px;
+    z-index: 5;
+    font: normal normal 20px/27px Raleway;
+    color: #383833;
+    white-space: nowrap;
+
+}
+
+.circle-segment {
+    position: absolute;
+    background-color: #598464;
+    top: 3330px;
+    left: 0px;
+    width: 1496px;
+    height: 1000px;
+    border-radius: 50%;
+    border: 1px solid none;
+    margin-left: -80px;
+    z-index: 4;
+
+}
+
+#bottom {
+    position: absolute;
+    top: 3610px;
+    left: 0;
+    height: 78px;
+    width: 1340px;
+    background-color: #598464;
+
+}
+
+#clear {
+    position: absolute;
+    top: 3688px;
+    left: -10px;
+    height: 650px;
+    width: 1490px;
+    background-color: #FAFAFA;
+    z-index: 7;
+}
+
+#whitecircle {
+    position: absolute;
+    top: 3165px;
+    left: 540px;
+    width: 189px;
+    height: 193px;
+    z-index: 5;
+    border: 1px solid none;
+    background-color: #FAFAFA;
+    padding: 40px 50px 50px 50px;
+    border-radius: 50%;
+
+}
+
+#wglogo{
+    position: absolute;
+    z-index: 7;
+    top: 3195px;
+left: 594px;
+width: 172px;
+height: 170px;
+
+
+}
+
+#baboutus {
+    z-index: 8;
+    position: absolute;
+    top: 3483px;
+    left: 445px;
+    width: 111px;
+    height: 29px;
+    font: normal normal bold 24px/42px Raleway;
+    letter-spacing: 1.2px;
+    color: #FAFAFA;
+    white-space: nowrap;
+
+
+}
+
+#bmenu {
+    z-index: 8;
+    position: absolute;
+    top: 3483px;
+    left: 649px;
+    width: 68px;
+    height: 29px;
+    font: normal normal bold 24px/42px Raleway;
+    letter-spacing: 1.2px;
+    color: #FAFAFA;
+    white-space: nowrap;
+
+}
+
+#bcontact {
+    z-index: 8;
+    position: absolute;
+    top: 3483px;
+    left: 810px;
+    width: 98px;
+    height: 29px;
+    font: normal normal bold 24px/42px Raleway;
+    letter-spacing: 1.2px;
+    color: #FAFAFA;
+    white-space: nowrap;
+
+}
+
+#facebook {
+    z-index: 8;
+    position: absolute;
+    top: 3580px;
+    left: 551px;
+    width: 41px;
+    height: 40px;
+
+}
+
+#twitter {
+    z-index: 8;
+    position: absolute;
+    top: 3585px;
+left: 663px;
+width: 41px;
+height: 33px;
+}
+
+#instagram {
+    z-index: 8;
+    position: absolute;
+    top: 3583px;
+left: 775px;
+width: 41px;
+height: 41px;
+}
